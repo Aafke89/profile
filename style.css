@@ -27,7 +27,7 @@ body {
 }
 
 ul {
-  margin-top: 60px;
+  margin-top: 30px;
   margin-bottom: 40px;
   display: block;
   list-style;
@@ -104,4 +104,10 @@ margin-top: 30px;
 border-radius: 4px;
 box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.block-in-div {
+  margin: 22px;
+  background-color: rgba(253, 253, 253, 0.80);
+  padding: 2px;
 }
