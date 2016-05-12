@@ -18,7 +18,7 @@ h3 {
 p {
   font-family: 'Dosis', sans-serif;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 25px;
 }
 
 
@@ -26,7 +26,35 @@ body {
   background-image: url("https://wallpaperscraft.com/image/space_universe_nebula_star_light_95356_1920x1080.jpg");
 }
 
-ul {
+#left {
+    width: 35%;
+    float: left;
+    /*height: 100%;*/
+    min-height: 600px;
+  }
+
+#right {
+    width: 60%;
+    float: right;
+    min-height: 600px;
+}
+
+.clear {
+    clear: both;
+}
+
+#wrapper {
+    padding: 20px;
+    width: 1000px;
+    margin: 20px auto;
+    border-radius: 2px;
+    /*background: rgba(175, 175, 175, 0.1);*/
+}
+
+
+
+
+ul.list-inline   {
   margin-top: 30px;
   margin-bottom: 40px;
   display: block;
@@ -34,45 +62,35 @@ ul {
   text-align: center;
   font-family: 'Dosis', sans-serif;
   font-size: 20px;
+  padding-left: 0;
 }
 
-ul li {
+ul.list-inline li  {
   display: inline-block;
   margin: 10px 30px;
 }
 
-#back-end li  {
+#contact-list li {
+  margin: 10px 15px;
+}
+
+#back-end li   {
     margin: 10px 15px;
 }
 
-ul li i {
+ul.list-inline li i  {
   color: black;
 }
 
-ul li i:hover {
+ul.list-inline li i:hover {
   color: #E80075;
 }
 
-ul li img {
+ul.list-inline li img{
   height: 50px;
   width: 50px;
 }
 
-ul li #api {
-    border-radius: 3px;
-    border: 1px solid black;
-    padding: 7px;
-    height: 50px;
-    width: 50px;
-}
-
-.list-inline > li {
-  display: inline-block;
-}
-
-.list-inline {
-  padding-left: 0px;
-}
 
 .image-round {
   border-radius: 50%;
@@ -83,27 +101,31 @@ ul li #api {
 .card #le-wagon-logo {
   width: 300px;
   opacity: 0.5;
-  margin-right: 300px;
+  margin-right: 213px;
 }
 
 .card #le-wagon-logo:hover {
   width: 300px;
   opacity: 0.7;
-  margin-left: 200px;
-  transition: 3s linear;
+  margin-left: 430px;
+  transition: 8s linear;
 }
 
 .card {
-width: 500px;
-margin: 80px auto;
+/*width: 400px;*/
+margin: 20px auto;
 /*margin-bottom: 80px;*/
 text-align: center;
 background-color: white;
-padding: 30px;
+padding: 15px;
 margin-top: 30px;
 border-radius: 4px;
 box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+div#skills {
+  height: 715px;
 }
 
 .block-in-div {
@@ -111,3 +133,52 @@ border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: rgba(253, 253, 253, 0.80);
   padding: 2px;
 }
+
+
+
+
+#sidebar {
+  text-align: center;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.80);
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  font-size: 80px;
+  vertical-align: center;
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #788188;
+  margin: 0 auto;
+}
+
+#sidebar a:hover {
+  color: red;
+}
+
+#sidebar i {
+  color: white;
+}
+
+#sidebar i:hover {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#page-content {
+  margin-left: 100px;
+}/* Here goes your CSS */
