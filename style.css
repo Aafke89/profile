@@ -24,6 +24,7 @@ p {
 
 body {
   background-image: url("https://wallpaperscraft.com/image/space_universe_nebula_star_light_95356_1920x1080.jpg");
+  background-size: cover;
 }
 
 #left {
